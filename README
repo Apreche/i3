@@ -1,4 +1,4 @@
-i3 window manager configuration for Ubuntu vm
+i3 window manager configuration
 
 Make sure feh is installed
-Put a jpg wallpaper in ~/Documents/wallpaper.jpg
+Make sure variety is installed and configured for wallpaper
