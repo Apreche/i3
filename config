@@ -76,8 +76,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+s split horizontal, layout stacking
+bindsym $mod+w split vertical, layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -156,4 +156,4 @@ bar {
 }
 
 # set Wallpaper
-exec --no-startup-id feh --bg-max ~/Documents/wallpaper.jpg
+exec variety
